@@ -1,10 +1,11 @@
 import pandas as pd
 import numpy as np
-
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 
+os.makedirs("charts", exist_ok=True)
 plt.style.use("default")
 sns.set_theme()
 
@@ -47,6 +48,7 @@ plt.title("Sales by Category")
 plt.xlabel("Sales")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Sales_by_Category.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -57,6 +59,7 @@ sns.barplot(x=profit_cat.index, y=profit_cat.values)
 plt.title("Profit by Category")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Profit_by_Category.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -71,9 +74,8 @@ sns.barplot(x=top_products.values , y=top_products.index)
 plt.title("Top 10 Products by Sales")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Top_10_Products.png", dpi=300, bbox_inches="tight")
 plt.show()
-
-
 
 
 
@@ -86,6 +88,7 @@ sns.barplot(x=top_states.values , y=top_states.index)
 plt.title("Top 10 States by Sales")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Top_10_States.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -102,6 +105,7 @@ plt.xlabel("Month")
 plt.ylabel("Sales")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Monthly_Sales_Trend.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -118,6 +122,7 @@ sns.lineplot(x=year_sales.index,
 plt.title("Yearly Sales Trend")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Yearly_Sales_Trend.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -133,6 +138,7 @@ plt.axis("equal")
 plt.title("Sales Contribution by segment")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Sales_by_Segment.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -146,6 +152,7 @@ sns.scatterplot(
 plt.title("Discount vs Profit")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Discount_vs_Profit.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -158,6 +165,7 @@ sns.heatmap(
 plt.title("Correlation Heatmap")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Correlation_Heatmap.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 plt.figure(figsize=(8,5))
@@ -169,6 +177,7 @@ sns.histplot(
 plt.title("Profit Distribution")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Profit_Distribution.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -181,6 +190,7 @@ sns.barplot(x=top_customer.values , y=top_customer.index)
 plt.title("Top  Customers by Sales")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Top_Customers.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
@@ -200,6 +210,7 @@ plt.xticks(rotation=20)
 plt.title("Sales by Ship Mode")
 plt.grid(alpha=0.3)
 plt.tight_layout()
+plt.savefig("charts/Sales_by_Ship_Mode.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 
