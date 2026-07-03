@@ -184,8 +184,9 @@ Sales-Data-Analysis/
     ├── Profit_Distribution.png
     ├── Top_Customers.png
     └── Sales_by_Ship_Mode.png
+
 ---
----
+
 
 ## ▶️ How to Run
 
@@ -210,7 +211,7 @@ pip install pandas numpy matplotlib seaborn
 4. Run the Python script
 
 ```bash
-python superstore_eda.py
+python SalesDataAnalysis.py
 ```
 
 ---
@@ -232,8 +233,8 @@ GitHub: https://github.com/snehaunoffical888-hash/Superstore-Sales-EDA.git
 ## 👨‍💻 Author
 
 **Sneha Vinod Pandey**
-## Bachelor of Science in Information Technology
-## Aspiring Data Engineer
+**Bachelor of Science in Information Technology**
+**Aspiring Data Engineer**
 
 
 
