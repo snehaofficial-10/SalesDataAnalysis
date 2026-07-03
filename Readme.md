@@ -233,8 +233,11 @@ GitHub: https://github.com/snehaunoffical888-hash/Superstore-Sales-EDA.git
 ## 👨‍💻 Author
 
 **Sneha Vinod Pandey**
+
 **Bachelor of Science in Information Technology**
+
 **Aspiring Data Engineer**
+
 
 
 
