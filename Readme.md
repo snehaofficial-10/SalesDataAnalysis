@@ -76,6 +76,79 @@ The project includes the following visualizations:
 - Sales by Ship Mode
 
 ---
+## 📷 Project Output
+
+### 📊 Sales by Category
+
+![Sales by Category](charts/Sales_by_Category.png)
+
+---
+
+### 💰 Profit by Category
+
+![Profit by Category](charts/Profit_by_Category.png)
+
+---
+
+### 🏆 Top 10 Products by Sales
+
+![Top 10 Products](charts/Top_10_Products.png)
+
+---
+
+### 🌍 Top 10 States by Sales
+
+![Top 10 States](charts/Top_10_States.png)
+
+---
+
+### 📈 Monthly Sales Trend
+
+![Monthly Sales Trend](charts/Monthly_Sales_Trend.png)
+
+---
+
+### 📅 Yearly Sales Trend
+
+![Yearly Sales Trend](charts/Yearly_Sales_Trend.png)
+
+---
+
+### 🥧 Sales Contribution by Segment
+
+![Sales by Segment](charts/Sales_by_Segment.png)
+
+---
+
+### 📉 Discount vs Profit
+
+![Discount vs Profit](charts/Discount_vs_Profit.png)
+
+---
+
+### 🔥 Correlation Heatmap
+
+![Correlation Heatmap](charts/Correlation_Heatmap.png)
+
+---
+
+### 📊 Profit Distribution
+
+![Profit Distribution](charts/Profit_Distribution.png)
+
+---
+
+### 👥 Top Customers by Sales
+
+![Top Customers](charts/Top_Customers.png)
+
+---
+
+### 🚚 Sales by Ship Mode
+
+![Sales by Ship Mode](charts/Sales_by_Ship_Mode.png)
+
+---
 
 ## 📈 Key Insights
 
@@ -92,14 +165,26 @@ The project includes the following visualizations:
 ## 📁 Project Structure
 
 ```
-Superstore-Sales-EDA/
+Sales-Data-Analysis/
 │
 ├── Sample - Superstore.csv
 ├── cleaned_superstore.csv
-├── superstore_eda.py
+├── SalesDataAnalysis.py
 ├── README.md
-```
-
+└── charts/
+    ├── Sales_by_Category.png
+    ├── Profit_by_Category.png
+    ├── Top_10_Products.png
+    ├── Top_10_States.png
+    ├── Monthly_Sales_Trend.png
+    ├── Yearly_Sales_Trend.png
+    ├── Sales_by_Segment.png
+    ├── Discount_vs_Profit.png
+    ├── Correlation_Heatmap.png
+    ├── Profit_Distribution.png
+    ├── Top_Customers.png
+    └── Sales_by_Ship_Mode.png
+---
 ---
 
 ## ▶️ How to Run
@@ -107,7 +192,7 @@ Superstore-Sales-EDA/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Superstore-Sales-EDA.git
+git clone https://github.com/snehaofficial-10/Superstore-Sales-EDA.git
 ```
 
 2. Navigate to the project folder
@@ -141,13 +226,14 @@ python superstore_eda.py
 ---
 
 
-GitHub: https://github.com/snehaofficial-10/Superstore-Sales-EDA.git
+GitHub: https://github.com/snehaunoffical888-hash/Superstore-Sales-EDA.git
 
 
 ## 👨‍💻 Author
 
-**Sneha Pandey**
-
+**Sneha Vinod Pandey**
+## Bachelor of Science in Information Technology
+## Aspiring Data Engineer
 
 
 
